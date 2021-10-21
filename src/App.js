@@ -65,8 +65,8 @@ class Clock extends React.Component{
       <div>
         <h1>Relógio</h1>
         <DataFormatada date={this.state.date} />
-        <button className="pausar" onClick ={() => this.pausarRelogio()}>Pausar</button>
-        <button className="continuar" onClick ={() => this.continuarRelogio()}>Continuar</button>
+        <button className="pausar" onClick ={this.pausarRelogio()}>Pausar</button>
+        <button className="continuar" onClick ={this.continuarRelogio()}>Continuar</button>
       </div>
     )
   }
